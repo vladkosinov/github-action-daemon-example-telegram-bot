@@ -1,20 +1,10 @@
-# Example github-action-daemon with telegram-bot
-
-Runs telegram bot https://t.me/github_action_daemon_bot
-
-### Running bot
-
-```yml
 name: Running bot
 on:
   push:
     branches:
       - main
   schedule:
-    # # # # # # # # # #
-    # restart each hour
     - cron: "0 */1 * * *"
-    # # # # # # # # # # 
 
 jobs:
   start:
@@ -32,4 +22,3 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
         with:
           command: node ./index.js
-```

@@ -1,6 +1,13 @@
 # Example github-action-daemon with telegram-bot
 
-Runs telegram bot https://t.me/github_action_daemon_bot
+Runs telegram bot using Github Actions.
+
+Write to the bot by yourself: [t.me/github_action_daemon_bot](https://t.me/github_action_daemon_bot)
+
+And check logs here: https://github.com/vladkosinov/github-action-daemon-example-telegram-bot/actions
+
+![Check last running workflow](./screenshot.jpg)
+
 
 ### Running bot
 
